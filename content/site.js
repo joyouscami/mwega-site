@@ -2,15 +2,15 @@
 
 /* Logo: put the file in public/brand, then set src, for example "/brand/mwega-logo.png".
    mode "plate" is the full 3:2 artwork with the tagline. mode "plain" is a logo on its own. */
-export const brand = { src: null, mode: "none" };
+export const brand = { src: "/brand/mwega-logo.png", mode: "plate" };
 
 export const siteConfig = {
   companyName: "Mwega",
   tagline: "Build better. Together.",
   description: "Mwega helps businesses and organisations turn data, technology and ideas into better decisions, smarter systems and sustainable growth.",
   location: "Nairobi, Kenya", // carried over from the current Comrades Market site
-  // PLACEHOLDERS: none of the values below is a confirmed Mwega detail.
-  email: "hello@mwega.co.ke", phone: "", whatsapp: "", address: "", linkedin: "", instagram: "", facebook: "",
+  // Contact details confirmed in October 2026. The street address is still to be added.
+  email: "hello@mwega.com", phone: "0718 367 110", phoneHref: "tel:+254718367110", whatsapp: "https://wa.me/254718367110", address: "", linkedin: "https://www.linkedin.com/company/comradesmarketke", instagram: "https://www.instagram.com/comradesmarketke", facebook: "https://www.facebook.com/comradesmarketKE",
 };
 
 export const solutions = [

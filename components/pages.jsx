@@ -309,8 +309,8 @@ export function ContactPage() {
           <ContactForm />
           <aside className="panel">
             <h2 className="h3">Other ways to reach us</h2>
-            <div className="detail"><b>WhatsApp</b>Number to be added <Badge variant="dashed">Placeholder</Badge></div>
-            <div className="detail"><b>Email</b>{siteConfig.email} <Badge variant="dashed">Placeholder</Badge></div>
+            <div className="detail"><b>Phone</b><a className="tlink" href={siteConfig.phoneHref}>{siteConfig.phone}</a></div><div className="detail"><b>WhatsApp</b><Link className="tlink" href={siteConfig.whatsapp}>Message us on WhatsApp</Link></div>
+            <div className="detail"><b>Email</b><a className="tlink" href={"mailto:" + siteConfig.email}>{siteConfig.email}</a></div>
             <div className="detail"><b>Location</b>{siteConfig.location}</div>
             <h2 className="h3" style={{ marginTop: 26 }}>What happens next</h2>
             <ol className="numbered">{nextSteps.map((t) => <li key={t}>{t}</li>)}</ol>
